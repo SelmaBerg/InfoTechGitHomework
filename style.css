@@ -1,0 +1,80 @@
+h1{
+    font: size 5px;
+    color:black;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+   
+}
+
+.container-1{
+    background-color:cornsilk;
+    margin: auto;
+    border: 5px solid black;
+    width: 80%;
+    margin: left 1px;;
+    
+}
+
+.formlar{
+    padding: 20px;
+
+}
+.formlar .form-1{
+    padding-bottom: 15px;
+
+}
+.formlar label{
+    display: block;
+}
+.formlar input[type="text"], .formlar textarea{
+    padding: 8px;
+    color:darkred;
+    background-color:white;
+    width: 30%;
+
+}
+.formlar input[type="submit"]{
+    background-color: darkseagreen;
+}
+.blok{
+    float:left;
+    width: 33%;
+    border: 1px solid;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#navbar{
+    background-color: darkturquoise;
+    color: yellowgreen;
+}
+#navbar ul{
+padding: 0;
+list-style: none;
+}
+#navbar li{
+    display: inline;
+}
+#navbar a{
+    text-decoration: none;
+    color:black;
+    padding-right: 15px;
+    font-size: 18px;
+
+}
+#kategori{
+    background-image: url("./image.jpg");
+    background-position: center right;
+    height: 300px;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+#kategori h1{
+    color: #fff;
+    font-size: 50px;
+    padding-top: 30px;
+    text-shadow: 1px 1px 1px white;
+    
+}
